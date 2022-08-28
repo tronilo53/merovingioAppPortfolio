@@ -1,41 +1,63 @@
 header {
-    height: 450px;
-    width: 100%;
     background-image: url('/assets/images/background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    overflow-x: hidden !important;
+    height: 100vh;
+    width: 100%;
 }
 header .contenedor {
-    text-align: center;
     position: absolute;
-    top: 10%;
     left: 0;
     right: 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    top: 28%;
 }
 header .contenedor .titulo {
     font-family: 'Aboreto';
+    font-size: 5rem;
     color: white;
-    text-shadow: 1px 1px 2px black;
-    letter-spacing: 4px;
+    text-shadow: 1px 1px 3px gray;
 }
 header .contenedor .subtitulo {
     font-family: 'Ubuntu';
-    margin-top: 20px;
     color: white;
-    text-shadow: 1px 1px 2px black;
-    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px gray;
+    letter-spacing: 3px;
+    font-size: 1.2rem;
 }
 header .contenedor .frase {
     font-family: 'Ubuntu';
-    margin-top: 100px;
+    margin-top: 30px;
     color: white;
-    text-shadow: 1px 1px 2px black;
-    letter-spacing: 2px;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
 }
-header .logo {
-    position: absolute;
-    width: 8rem;
-    left: 0;
+header .contenedor .btn_conoceme {
+    margin-top: 30px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 899px){
+    header .contenedor .titulo {
+        font-size: 3.7rem;
+    }
+    header .contenedor .frase {
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+}
+@media screen and (max-width: 609px){
+    header .contenedor .titulo {
+        font-size: 2.8rem;
+    }
+}
+@media screen and (max-width: 467px){
+    header .contenedor .titulo {
+        font-size: 2.3rem;
+    }
 }
