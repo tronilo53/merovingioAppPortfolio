@@ -1,6 +1,16 @@
-.perfil .titulo {
-    margin-top: 20px;
+section {
+    min-height: 200px;
+}
+section .perfil {
+    font-family: 'Ubuntu';
+}
+section .perfil .titulo {
+    margin: 50px 0;
     text-align: center;
-    font-family: 'Aboreto';
     color: white;
+    font-size: 2.2rem;
+}
+section .perfil .descripcion {
+    color: white;
+    text-align: center;
 }
