@@ -1,0 +1,107 @@
+section .titulo {
+    margin: 50px 0;
+    text-align: center;
+    color: white;
+    font-size: 2.2rem;
+    font-family: 'Ubuntu';
+}
+section .contenedor {
+    width: 80%;
+    margin: 0 auto;
+}
+section .contenedor .padres .min-height {
+    height: 350px;
+    min-height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .contenedor .padres .min-height .titulo {
+    margin-top: 20px;
+    font-family: 'Aboreto';
+}
+section .contenedor .padres .min-height .descripcion {
+    font-family: 'Ubuntu';
+}
+section .contenedor .padres .text {
+    color: white;
+}
+section .contenedor .padres .text-iz .titulo,
+section .contenedor .padres .text-iz .descripcion {
+    text-align: left;
+}
+section .contenedor .padres .text-der .titulo,
+section .contenedor .padres .text-der .descripcion {
+    text-align: right;
+}
+/* ---------HTML5--------------- */
+section .contenedor .padre_html5 .html5_image {
+    background-image: url('/assets/images/lenguajes/html5.jpg');
+}
+/* ---------CSS3--------------- */
+section .contenedor .padre_css3 .css3_image {
+    background-image: url('/assets/images/lenguajes/css3.jpg');
+}
+/* ---------JAVASCRIPT--------------- */
+section .contenedor .padre_javascript .javascript_image {
+    background-image: url('/assets/images/lenguajes/javascript.jpg');
+}
+/* ---------TYPESCRIPT--------------- */
+section .contenedor .padre_typescript .typescript_image {
+    background-image: url('/assets/images/lenguajes/typescript.jpg');
+}
+/* ---------PHP--------------- */
+section .contenedor .padre_php .php_image {
+    background-image: url('/assets/images/lenguajes/php.jpg');
+}
+/* ---------SQL--------------- */
+section .contenedor .padre_sql .sql_image {
+    background-image: url('/assets/images/lenguajes/sql.jpg');
+}
+
+/* Media Queries */
+@media screen and (max-width: 980px) {
+    section .contenedor .padres .min-height {
+        height: 250px;
+        min-height: 250px;
+    }
+    section .contenedor .padres .min-height .titulo {
+        margin: 0 !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    section .contenedor .padres {
+        margin: 20px 0;
+    }
+    section .contenedor .padres .text {
+        background-color: black;
+        padding: 20px;
+    }
+    section .contenedor .padres .min-height .titulo,
+    section .contenedor .padres .min-height .descripcion {
+        text-align: center;
+    }
+    section .contenedor .padres .height-auto {
+        height: auto;
+        min-height: auto;
+    }
+    section .contenedor .flex {
+        display: flex;
+    }
+    section .contenedor .flex div:first-child {
+        order: 2;
+    }
+    section .contenedor .flex div:nth-child(2) {
+        order: 1;
+    }
+}
+@media screen and (max-width: 536px) {
+    section .titulo {
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width: 402px) {
+    section{
+        margin-top: 150px;
+    }
+}

@@ -10,6 +10,8 @@ import { ConocemeComponent } from './components/conoceme/conoceme.component';
 import { FrameworksComponent } from './components/lenguajes/frameworks/frameworks.component';
 import { LibreriasComponent } from './components/lenguajes/librerias/librerias.component';
 import { OtrosComponent } from './components/lenguajes/otros/otros.component';
+import { LenguajesProgramacionComponent } from './components/lenguajes/lenguajes-programacion/lenguajes-programacion.component';
+import { ScrollToTopComponent } from './components/shared/scroll-to-top/scroll-to-top.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { OtrosComponent } from './components/lenguajes/otros/otros.component';
     ConocemeComponent,
     FrameworksComponent,
     LibreriasComponent,
-    OtrosComponent
+    OtrosComponent,
+    LenguajesProgramacionComponent,
+    ScrollToTopComponent
   ],
   imports: [
     BrowserModule,
