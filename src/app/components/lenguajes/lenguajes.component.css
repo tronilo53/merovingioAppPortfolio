@@ -1,0 +1,126 @@
+section {
+    margin-top: 100px;
+}
+section .titulo {
+    margin: 50px 0;
+    text-align: center;
+    color: white;
+    font-size: 2.2rem;
+    font-family: 'Ubuntu';
+}
+section .contenedor {
+    width: 80%;
+    margin: 0 auto;
+}
+section .contenedor .padres .min-height {
+    height: 350px;
+    min-height: 350px;
+}
+/* ---------HTML5--------------- */
+section .contenedor .padre_html5 .html5_image {
+    background-image: url('/assets/images/lenguajes/html5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .contenedor .padre_html5 .html5_text {
+    color: white;
+}
+section .contenedor .padre_html5 .html5_text .titulo {
+    font-family: 'Aboreto';
+    text-align: left;
+    margin: 10px 0;
+}
+section .contenedor .padre_html5 .html5_text .descripcion {
+    font-family: 'Ubuntu';
+    text-align: left;
+}
+/* ---------CSS3--------------- */
+section .contenedor .padre_css3 .css3_image {
+    background-image: url('/assets/images/lenguajes/css3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .contenedor .padre_css3 .css3_text {
+    color: white;
+}
+section .contenedor .padre_css3 .css3_text .titulo {
+    font-family: 'Aboreto';
+    text-align: right;
+    margin: 5px 0;
+}
+section .contenedor .padre_css3 .css3_text .descripcion {
+    font-family: 'Ubuntu';
+    text-align: right;
+}
+/* ---------JAVASCRIPT--------------- */
+section .contenedor .padre_javascript .javascript_image {
+    background-image: url('/assets/images/lenguajes/javascript.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .contenedor .padre_javascript .javascript_text {
+    color: white;
+}
+section .contenedor .padre_javascript .javascript_text .titulo {
+    font-family: 'Aboreto';
+    text-align: left;
+    margin: 5px 0;
+}
+section .contenedor .padre_javascript .javascript_text .descripcion {
+    font-family: 'Ubuntu';
+    text-align: left;
+}
+/* Media Queries */
+@media screen and (max-width: 980px) {
+    section .contenedor .padres .min-height {
+        height: 250px;
+        min-height: 250px;
+    }
+}
+@media screen and (max-width: 767px) {
+    section .contenedor .padres {
+        margin: 20px 0;
+    }
+    section .contenedor .padre_html5 .html5_text,
+    section .contenedor .padre_css3 .css3_text,
+    section .contenedor .padre_javascript .javascript_text {
+        background-color: black;
+        padding: 20px;
+    }
+    section .contenedor .padre_html5 .html5_text .titulo,
+    section .contenedor .padre_html5 .html5_text .descripcion,
+    section .contenedor .padre_css3 .css3_text .titulo,
+    section .contenedor .padre_css3 .css3_text .descripcion,
+    section .contenedor .padre_javascript .javascript_text .titulo,
+    section .contenedor .padre_javascript .javascript_text .descripcion {
+        text-align: center;
+    }
+    section .contenedor .padre_html5 .min-height.html5_text,
+    section .contenedor .padre_css3 .min-height.css3_text,
+    section .contenedor .padre_javascript .min-height.javascript_text {
+        height: auto;
+        min-height: auto;
+    }
+    section .contenedor .padre_css3 {
+        display: flex;
+    }
+    section .contenedor .padre_css3 .css3_image {
+        order: 1;
+    }
+    section .contenedor .padre_css3 .css3_text {
+        order: 2;
+    }
+}
+@media screen and (max-width: 536px) {
+    section .titulo {
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width: 402px) {
+    section{
+        margin-top: 150px;
+    }
+}
