@@ -1,0 +1,13 @@
+/* ---------ANGULAR--------------- */
+section .contenedor .padre_angular .angular_image {
+    background-image: url('/assets/images/lenguajes/frameworks/angular.jpg');
+}
+/* ---------IONIC--------------- */
+section .contenedor .padre_ionic .ionic_image {
+    background-image: url('/assets/images/lenguajes/frameworks/ionic.jpg');
+}
+/* ---------IONIC--------------- */
+section .contenedor .padre_electron .electron_image {
+    background-image: url('/assets/images/lenguajes/frameworks/electron.jpg');
+}
+

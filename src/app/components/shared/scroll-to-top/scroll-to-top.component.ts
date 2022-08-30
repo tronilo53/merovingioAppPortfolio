@@ -21,7 +21,7 @@ export class ScrollToTopComponent implements OnInit {
     }
     else if (this.windowScrolled && window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop < 10) {
       this.windowScrolled = false;
-  }
+    }
   }
   scrollToTop(): void {
     window.scrollTo({

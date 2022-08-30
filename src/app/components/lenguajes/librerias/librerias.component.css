@@ -1,0 +1,12 @@
+/* ---------JQUERY--------------- */
+section .contenedor .padre_jquery .jquery_image {
+    background-image: url('/assets/images/lenguajes/librerias/jquery.jpg');
+}
+/* ---------BOOTSTRAP--------------- */
+section .contenedor .padre_bootstrap .bootstrap_image {
+    background-image: url('/assets/images/lenguajes/librerias/bootstrap.jpg');
+}
+/* ---------MATERIAL DESIGN--------------- */
+section .contenedor .padre_material .material_image {
+    background-image: url('/assets/images/lenguajes/librerias/material_design.jpg');
+}
