@@ -1,4 +1,77 @@
-section .card {
-    width: 90%;
-    margin: 50px auto;
+section .row {
+    margin: 10px 0 !important;
+}
+section .row > div {
+    margin: 10px 0 !important;
+}
+section .contenedor_foto {
+    text-align: center;
+}
+section .contenedor_foto .foto {
+    width: 40%;
+    margin: 0 auto;
+}
+section .contenedor_foto .titulo {
+    font-family: 'Aboreto';
+    font-size: 1.5rem;
+    margin: 10px;
+}
+section .contenedor_foto .texto {
+    color: gray;
+}
+section .contenedor_foto .texto .iconos {
+    color: white !important;
+}
+section .contenedor_texto, section .contenedor_conocimientos {
+    color: white;
+    font-family: 'Ubuntu';
+    text-align: left;
+    padding: 0 20px;
+    border-left: 3px solid gray;
+}
+section .contenedor_experiencia {
+    font-family: 'Ubuntu';
+    text-align: center;
+}
+section .contenedor_experiencia .titulo {
+    margin: 10px 0;
+}
+section .contenedor_experiencia .bloques {
+    margin: 20px auto;
+}
+section .contenedor_experiencia .bloques .titulo_cargo {
+    color: var(--bs-warning);
+    font-size: 1.2rem;
+}
+section .contenedor_experiencia .bloques .titulo_cargo .fas {
+    color: var(--bs-light);
+    font-size: 1.2rem;
+}
+section .contenedor_experiencia .bloques .titulo_empresa {
+    color: lightgray;
+}
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+    section .contenedor_foto .foto {
+        width: 20%;
+    }
+    section .contenedor_texto, section .contenedor_conocimientos {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 613px) {
+    section .contenedor_foto .foto {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 473px) {
+    section .contenedor_foto .foto {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 405px) {
+    section .contenedor_foto .foto {
+        width: 40%;
+    }
 }
